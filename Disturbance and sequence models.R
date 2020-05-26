@@ -2,7 +2,6 @@
                    ### Disturbance and sequence models ###
                    #######################################
 
-library(dplyr)
 library(rstanarm)
 
 # Read in data file
