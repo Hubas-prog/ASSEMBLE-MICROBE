@@ -4,11 +4,11 @@
 
 ### Cohesive strength meter (CSM) data object creation ###
 
-Erosion <- read_excel("CSM.xlsx")
+Erosion <- read_excel("Critical erosion thresholds.xlsx")
 CSM <- Erosion[1:12,]
 CSM$Seq <- rep(c("T1", "T0", "T1", "T0"), e = 3)
 CSM$Disturb <- rep(c("P1", "P1", "P0", "P0"), e = 3)
-CSM
+CSM$Erosion  <- CSM$`Erosion (N m-2)` 
 
 ### Chlorophyll data object creation ###
 
@@ -16,7 +16,6 @@ Chlorophyll <- read_excel("Chlorophyll.xlsx")
 chlor <- Chlorophyll[1:12,]
 chlor$Seq <- rep(c("T1", "T0", "T1", "T0"), e = 3)
 chlor$Disturb <- rep(c("P1", "P1", "P0", "P0"), e = 3)
-chlor
 
 ### This script is used to create a singular pulse ampltitude modulation (PAM) data object ###
 
