@@ -1,7 +1,7 @@
           ####################################################
           ##### Creation of data objects for modelling #######
           ####################################################
-
+library(readxl)
 ### Cohesive strength meter (CSM) data object creation ###
 
 Erosion <- read_excel("Critical erosion thresholds.xlsx")
