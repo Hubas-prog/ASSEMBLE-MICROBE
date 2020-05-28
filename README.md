@@ -5,8 +5,7 @@ xlsx files contain the data used in the analysis, tailored for ease of manipulat
 Rda files contain R processed objects (e.g. dataframes); their production can be recreated using code in the scripts. 
 R files are the scripts used for the key analysis.
 
-Many functions used in the modelling are unique to the rstanarm package (https://mc-stan.org/rstanarm/). Stan priors can be specified manually or be allowed to scale to the data automatically (autoscale = TRUE) - the scaled priors used in this analysis are specified in the code 
-to future-against changes to the package. See ?stan_lmer or ?stan_glm for more details.
+Many functions used in the modelling are unique to the rstanarm package (https://mc-stan.org/rstanarm/). Stan priors can be specified manually or be allowed to scale to the data automatically (autoscale = TRUE) - the scaled priors used in this analysis are specified in the code to future-proof against changes to the package. See ?stan_lmer or ?stan_glm for more details.
 
 Script correspondance:
 
