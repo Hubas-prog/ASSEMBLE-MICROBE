@@ -1,7 +1,7 @@
 # ASSEMBLE-MICROBE
 Supplementary materials for paper entitled: Identity and sequence: The effect of multiple stressors on microphytobenthos assemblages by James E V Rimmer, Cédric Hubas, Adam Wyness, Bruno Jesus, Morgan Hartley, Andrew J Blight, Antoine Prins, David M Paterson
 
-xlsx files contain the data used in the analysis, tailored for ease of manipulation with R. Previous results to guide priors.xlsx contains data from previous experiments which were used to guide the priors used in the Bayesian analysis
+xlsx files contain the data used in the analysis, tailored for ease of manipulation with R. 'Previous results to guide priors.xlsx' contains data from previous experiments which were used to guide the priors used in the Bayesian analysis.
 Rda files contain R processed objects (e.g. dataframes); their production can be recreated using code in the scripts. 
 R files are the scripts used for the key analysis.
 
