@@ -14,5 +14,5 @@ Script correspondance:
 
 'Data object creation.R' and 'Control models.R' requires the xlsx files 'Chlorophyll.xlsx', 'Critical erosion thresholds.xlsx', 'PAM time 1.xlsx', 'PAM time 2.xlsx', 'PAM time 3.xlsx'.
 
-'Disturbance and sequence models.R' relies on the R objects created by ''Data object creation.R', or the provided .rda files. 
+'Disturbance and sequence models.R' relies on the R objects created by 'Data object creation.R', or the provided .rda files. 
 
